@@ -41,7 +41,6 @@ div{
   padding-left: 200px;
 }
 .section1 {
-  background: url("http://www.mobileworld.it/wp-content/uploads/2015/10/chat-donna-smartphone-final.jpg");
   background-position: center;
   background-size: cover;
   height: 100%;
@@ -72,13 +71,12 @@ div{
 .section2 {
   background: url("../img/grafica_boxupselling.png") no-repeat #3098ef;
   background-position: 830px 410px;
-  padding-top: 100px;
-  background-size: cover;
+  padding-top: 60px;
   position: relative;
   overflow: hidden;
   .phone {
     position: relative;
-    bottom: -30px;
+    bottom: -60px;
   }
   .mouse-scrolldown {
     position: absolute;
@@ -86,6 +84,9 @@ div{
     right: 0;
     margin: 0 auto;
     bottom: 0;
+  }
+  .right {
+    margin-top: 30px;
   }
   h1 {
     color: $primary;
@@ -101,7 +102,6 @@ div{
 .section3 {
   background: url("../img/grafica_box_comunicazionediretta.png") no-repeat #17b0d2;
   background-position: 530px 410px;
-  background-size: cover;
   padding-top: 60px;
   position: relative;
   overflow: hidden;
@@ -193,7 +193,6 @@ div{
   }
 }
 .section6 {
-  background: url('https://chegenerediblog.files.wordpress.com/2015/03/strada.jpg');
   background-position: center;
   background-size: cover;
   height: 560px;
@@ -201,7 +200,7 @@ div{
     color: $primary;
     font-size: 32px;
   }
-  h2 {
+  p {
     color: $primary;
     font-size: 26px;
   }
@@ -242,7 +241,6 @@ div{
 
 /** Mobile Version **/
 @media screen and (max-width: 768px) {
-
 .pad {
   padding: 0;
 }

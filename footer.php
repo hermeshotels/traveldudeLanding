@@ -15,7 +15,7 @@
 		<div class="valign">
 			<div class="container-fluid">
 				<div class="logo-footer">
-					<img src="<?php echo get_template_directory_uri() . '/img/logo_ermesgrigio.png'?>" width="70px" height="45px">
+					<img src="<?php the_field('immagine_hermes_footer');?>" width="70px" height="45px">
 				</div>
 				<div class="menu-footer">
 					<ul>

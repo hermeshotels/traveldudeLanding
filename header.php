@@ -22,6 +22,6 @@
 <body <?php body_class(); ?>>
 <div class="header">
 	<div class="logo text-center">
-		<a href="<?php echo get_home_url(); ?>"><img src="<?php echo get_template_directory_uri() . '/img/Traveldude_logo.png'?>"  width="212px" height="43px"></a>
+		<a href="<?php echo get_home_url(); ?>"><img src="<?php the_field('immagine_logo');?>"  width="212px" height="43px"></a>
 	</div>
 </div>
