@@ -15,11 +15,11 @@ get_header();
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra leo eget tortor sollicitudin, non egestas purus luctus. Praesent eu posuere dui.
           </p>
           <div class="logo-app">
-            <img src="<?php echo get_template_directory_uri()  . '/img/logoapplestore.png'?>" width="136px" height="40px">
-            <img src="<?php echo get_template_directory_uri()  . '/img/logo_googleplay.png'?>" width="136px" height="40px" class="logo-android">
+            <img src="<?php echo get_template_directory_uri()  . '/img/logoapplestore.png'?>" width="136px" height="auto">
+            <img src="<?php echo get_template_directory_uri()  . '/img/logo_googleplay.png'?>" width="136px" height="auto" class="logo-android">
           </div>
           <div class="logo-hermes">
-            <img src="<?php echo get_template_directory_uri()  . '/img/logoermeshotels_bianco.png'?>" width="95px" height="61px">
+            <img src="<?php echo get_template_directory_uri()  . '/img/logoermeshotels_bianco.png'?>" width="95px" height="auto">
           </div>
         </div>
       </div>

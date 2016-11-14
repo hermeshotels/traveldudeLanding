@@ -73,6 +73,7 @@ div{
   background: url("../img/grafica_boxupselling.png") no-repeat #3098ef;
   background-position: 830px 410px;
   padding-top: 100px;
+  background-size: cover;
   position: relative;
   overflow: hidden;
   .phone {
@@ -100,6 +101,7 @@ div{
 .section3 {
   background: url("../img/grafica_box_comunicazionediretta.png") no-repeat #17b0d2;
   background-position: 530px 410px;
+  background-size: cover;
   padding-top: 60px;
   position: relative;
   overflow: hidden;
@@ -236,4 +238,151 @@ div{
       }
     }
   }
+}
+
+/** Mobile Version **/
+@media screen and (max-width: 768px) {
+
+.pad {
+  padding: 0;
+}
+.section1 {
+  h1 {
+    font-size: 22px;
+    line-height: 1.2;
+    text-align: center;
+  }
+  p {
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: center;
+  }
+  .col-left {
+    margin-top: 100px;
+  }
+  .logo-app {
+    margin-top: -20px;
+  }
+  .logo-android {
+    margin-left: 10px !important;
+  }
+  .logo-hermes {
+    margin-top: -190px;
+    text-align: center;
+  }
+}
+.section2 {
+  padding-top: 30px;
+  .right {
+    text-align: center;
+  }
+  h1 {
+    margin-top: 50px !important;
+    font-size: 22px;
+    line-height: 1.2;
+  }
+  p {
+    margin-bottom: 50px !important;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+}
+.section3 {
+  padding-top: 30px;
+  .left {
+    text-align: center;
+    margin-top: 0;
+  }
+  .right {
+    margin-top: -30px;
+  }
+  h1 {
+    font-size: 22px;
+    line-height: 1.2;
+  }
+  p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .phone {
+    margin-bottom: 100px !important;
+  }
+}
+.section4 {
+  padding-top: 30px;
+  .right {
+    text-align: center;
+  }
+  .phone {
+    margin-top: -30px !important;
+  }
+  h1 {
+    margin-top: 50px !important;
+    font-size: 22px;
+    line-height: 1.2;
+  }
+  p {
+    margin-bottom: 50px !important;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+}
+.section5 {
+  padding-top: 30px;
+  .left {
+    text-align: center;
+    margin-top: 0;
+  }
+  .right {
+    margin-top: -30px;
+  }
+  h1 {
+    font-size: 22px;
+    line-height: 1.2;
+  }
+  p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .phone {
+    margin-bottom: 100px !important;
+  }
+}
+.section6 {
+  height: 300px;
+  .slogan {
+    margin-top: -30px;
+  }
+  h1 {
+    font-size: 22px;
+    line-height: 1.2;
+    text-align: center;
+  }
+  h2 {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+  }
+  .logo-android {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+}
+.footer {
+  .container-fluid {
+    padding-left: 15px;
+  }
+  .menu-footer {
+    margin-top: -7px;
+  }
+  ul {
+    li {
+      float: right;
+      margin-left: 10px;
+    }
+  }
+}
+.mouse-scrolldown {
+  visibility: hidden;
+}
 }
