@@ -1,9 +1,239 @@
+$primary: #fff;
+$link-color: #333;
+@import url('<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">');
+
+body, html {
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+}
 div{
   &.header{
     width: 100%;
     height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    background: #fff;
     img {
       margin-top: 20px;
+    }
+  }
+}
+.overlay {
+  background: rgba(0,0,0,.7);
+  width: 100%;
+  height: 100%;
+}
+.valign-wrapper {
+  display: table;
+  height: 100%;
+  width: 100%;
+  &.overlay {
+    background: rgba(0,0,0,.7);
+  }
+  .valign{
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+.pad {
+  padding-left: 200px;
+}
+.section1 {
+  background: url("http://www.mobileworld.it/wp-content/uploads/2015/10/chat-donna-smartphone-final.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  .col-left {
+    margin-top: 150px;
+  }
+  h1 {
+    color: $primary;
+    font-size: 36px;
+    line-height: 1.6;
+  }
+  p {
+    color: $primary;
+    font-size: 16px;
+    line-height: 2;
+    margin-top: 30px;
+  }
+  img {
+    margin-top: 40px;
+    &.logo-android {
+      margin-left: 30px;
+    }
+  }
+  .logo-app {
+    margin-bottom: 180px;
+  }
+}
+.section2 {
+  background: url("../img/grafica_boxupselling.png") no-repeat #3098ef;
+  background-position: 830px 410px;
+  padding-top: 100px;
+  position: relative;
+  overflow: hidden;
+  .phone {
+    position: relative;
+    bottom: -30px;
+  }
+  .mouse-scrolldown {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 0;
+  }
+  h1 {
+    color: $primary;
+    font-size: 36px;
+  }
+  p {
+    color: $primary;
+    font-size: 16px;
+    line-height: 2;
+    margin-top: 30px;
+  }
+}
+.section3 {
+  background: url("../img/grafica_box_comunicazionediretta.png") no-repeat #17b0d2;
+  background-position: 530px 410px;
+  padding-top: 60px;
+  position: relative;
+  overflow: hidden;
+  .phone {
+    position: relative;
+    bottom: -60px;
+  }
+  .left {
+    margin-top: 30px;
+  }
+  .mouse-scrolldown {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 0;
+  }
+  h1 {
+    color: $primary;
+    font-size: 36px;
+  }
+  p {
+    color: $primary;
+    font-size: 16px;
+    line-height: 2;
+    margin-top: 30px;
+  }
+}
+.section4 {
+  background: url("../img/grafica_boxitinerari.png") no-repeat #04b3ac;
+  background-position: 720px 350px;
+  padding-top: 60px;
+  position: relative;
+  overflow: hidden;
+  .phone {
+    position: relative;
+    bottom: -60px;
+  }
+  .right {
+    margin-top: 30px;
+  }
+  .mouse-scrolldown {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 0;
+  }
+  h1 {
+    color: $primary;
+    font-size: 36px;
+  }
+  p {
+    color: $primary;
+    font-size: 16px;
+    line-height: 2;
+    margin-top: 30px;
+  }
+}
+.section5 {
+  background: url("../img/grafica_prenotazione.png") no-repeat #145dac;
+  background-position: 530px 480px;
+  padding-top: 60px;
+  position: relative;
+  overflow: hidden;
+  .phone {
+    position: relative;
+    bottom: -60px;
+  }
+  .left {
+    margin-top: 30px;
+  }
+  .mouse-scrolldown {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 0;
+  }
+  h1 {
+    color: $primary;
+    font-size: 36px;
+  }
+  p {
+    color: $primary;
+    font-size: 16px;
+    line-height: 2;
+    margin-top: 30px;
+  }
+}
+.section6 {
+  background: url('https://chegenerediblog.files.wordpress.com/2015/03/strada.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 560px;
+  h1 {
+    color: $primary;
+    font-size: 32px;
+  }
+  h2 {
+    color: $primary;
+    font-size: 26px;
+  }
+  .logo-app {
+    margin-top: 50px;
+  }
+  .slogan {
+    margin-top: -180px;
+  }
+  .logo-android {
+    margin-left: 30px;
+  }
+}
+.footer {
+  height: 70px;
+  background: #eeeeee;
+  .container-fluid {
+    padding-left: 100px;
+  }
+  .logo-footer {
+    float: left;
+  }
+  ul {
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 100px;
+      a {
+        text-transform: uppercase;
+        color: #333;
+        span {
+          text-decoration: underline;
+        }
+      }
     }
   }
 }

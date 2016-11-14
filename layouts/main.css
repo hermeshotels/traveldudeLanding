@@ -1,7 +1,196 @@
+@import url('<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">');
+body, html {
+  height: 100%;
+  font-family: 'Lato', sans-serif; }
+
 div.header {
   width: 100%;
-  height: 80px; }
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  background: #fff; }
   div.header img {
     margin-top: 20px; }
+
+.overlay {
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%; }
+
+.valign-wrapper {
+  display: table;
+  height: 100%;
+  width: 100%; }
+  .valign-wrapper.overlay {
+    background: rgba(0, 0, 0, 0.7); }
+  .valign-wrapper .valign {
+    display: table-cell;
+    vertical-align: middle; }
+
+.pad {
+  padding-left: 200px; }
+
+.section1 {
+  background: url("http://www.mobileworld.it/wp-content/uploads/2015/10/chat-donna-smartphone-final.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100%; }
+  .section1 .col-left {
+    margin-top: 150px; }
+  .section1 h1 {
+    color: #fff;
+    font-size: 36px;
+    line-height: 1.6; }
+  .section1 p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 2;
+    margin-top: 30px; }
+  .section1 img {
+    margin-top: 40px; }
+    .section1 img.logo-android {
+      margin-left: 30px; }
+  .section1 .logo-app {
+    margin-bottom: 180px; }
+
+.section2 {
+  background: url("../img/grafica_boxupselling.png") no-repeat #3098ef;
+  background-position: 830px 410px;
+  padding-top: 100px;
+  position: relative;
+  overflow: hidden; }
+  .section2 .phone {
+    position: relative;
+    bottom: -30px; }
+  .section2 .mouse-scrolldown {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 0; }
+  .section2 h1 {
+    color: #fff;
+    font-size: 36px; }
+  .section2 p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 2;
+    margin-top: 30px; }
+
+.section3 {
+  background: url("../img/grafica_box_comunicazionediretta.png") no-repeat #17b0d2;
+  background-position: 530px 410px;
+  padding-top: 60px;
+  position: relative;
+  overflow: hidden; }
+  .section3 .phone {
+    position: relative;
+    bottom: -60px; }
+  .section3 .left {
+    margin-top: 30px; }
+  .section3 .mouse-scrolldown {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 0; }
+  .section3 h1 {
+    color: #fff;
+    font-size: 36px; }
+  .section3 p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 2;
+    margin-top: 30px; }
+
+.section4 {
+  background: url("../img/grafica_boxitinerari.png") no-repeat #04b3ac;
+  background-position: 720px 350px;
+  padding-top: 60px;
+  position: relative;
+  overflow: hidden; }
+  .section4 .phone {
+    position: relative;
+    bottom: -60px; }
+  .section4 .right {
+    margin-top: 30px; }
+  .section4 .mouse-scrolldown {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 0; }
+  .section4 h1 {
+    color: #fff;
+    font-size: 36px; }
+  .section4 p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 2;
+    margin-top: 30px; }
+
+.section5 {
+  background: url("../img/grafica_prenotazione.png") no-repeat #145dac;
+  background-position: 530px 480px;
+  padding-top: 60px;
+  position: relative;
+  overflow: hidden; }
+  .section5 .phone {
+    position: relative;
+    bottom: -60px; }
+  .section5 .left {
+    margin-top: 30px; }
+  .section5 .mouse-scrolldown {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 0; }
+  .section5 h1 {
+    color: #fff;
+    font-size: 36px; }
+  .section5 p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 2;
+    margin-top: 30px; }
+
+.section6 {
+  background: url("https://chegenerediblog.files.wordpress.com/2015/03/strada.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 560px; }
+  .section6 h1 {
+    color: #fff;
+    font-size: 32px; }
+  .section6 h2 {
+    color: #fff;
+    font-size: 26px; }
+  .section6 .logo-app {
+    margin-top: 50px; }
+  .section6 .slogan {
+    margin-top: -180px; }
+  .section6 .logo-android {
+    margin-left: 30px; }
+
+.footer {
+  height: 70px;
+  background: #eeeeee; }
+  .footer .container-fluid {
+    padding-left: 100px; }
+  .footer .logo-footer {
+    float: left; }
+  .footer ul {
+    list-style: none; }
+    .footer ul li {
+      float: left;
+      margin-left: 100px; }
+      .footer ul li a {
+        text-transform: uppercase;
+        color: #333; }
+        .footer ul li a span {
+          text-decoration: underline; }
 
 /*# sourceMappingURL=main.css.map */

@@ -10,7 +10,24 @@
  */
 
 ?>
+<div class="footer">
+	<div class="valign-wrapper">
+		<div class="valign">
+			<div class="container-fluid">
+				<div class="logo-footer">
+					<img src="<?php echo get_template_directory_uri() . '/img/logo_ermesgrigio.png'?>" width="70px" height="45px">
+				</div>
+				<div class="menu-footer">
+					<ul>
+						<li><a href="#">Cookie Policy</a></li>
+						<li><a href="#">Powered by <span>WebJ</span></a></li>
+					</ul>
+				</div>
 
+			</div>
+		</div>
+	</div>
+</div>
 <?php wp_footer(); ?>
 
 </body>
