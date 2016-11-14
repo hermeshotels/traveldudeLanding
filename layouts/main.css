@@ -1,4 +1,7 @@
-body {
-  background: red; }
+div.header {
+  width: 100%;
+  height: 80px; }
+  div.header img {
+    margin-top: 20px; }
 
 /*# sourceMappingURL=main.css.map */
